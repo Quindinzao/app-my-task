@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "mytask",
-    "slug": "mytask",
+    "name": "myapp-expo",
+    "slug": "myapp-expo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,6 +18,10 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "androidStatusBar":{
+      "barStyle": "light-content",
+      "backgroundColor": "#000"
     },
     "android": {
       "adaptiveIcon": {
